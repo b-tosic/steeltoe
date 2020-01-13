@@ -237,6 +237,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play", "Play\Play\Play.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayWeb", "PlayWeb\PlayWeb.csproj", "{6C225B18-E71B-4FB9-8680-99FFADC8F409}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Steeltoe.Security.Authentication.MtlsCore.Test", "Security\test\Authentication.MtlsCore.Test\Steeltoe.Security.Authentication.MtlsCore.Test.csproj", "{0134F5C0-7595-497E-91BE-CCCD2290CF8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -603,6 +605,10 @@ Global
 		{6C225B18-E71B-4FB9-8680-99FFADC8F409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C225B18-E71B-4FB9-8680-99FFADC8F409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C225B18-E71B-4FB9-8680-99FFADC8F409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0134F5C0-7595-497E-91BE-CCCD2290CF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0134F5C0-7595-497E-91BE-CCCD2290CF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0134F5C0-7595-497E-91BE-CCCD2290CF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0134F5C0-7595-497E-91BE-CCCD2290CF8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -696,6 +702,7 @@ Global
 		{7CDEDE64-B3FC-46C0-B264-8CBE973CD705} = {43870F18-E788-433B-A41D-7C98174BA402}
 		{0FEEB397-0A2B-4E24-A5AE-B91A56303C98} = {3CBE0336-C3C8-4DC2-AE45-86FC1D1B3C25}
 		{BC84AEA9-31BB-4D19-BC55-1B6EF6AD53FC} = {5128206A-242E-4069-AD30-910EDC40B165}
+		{0134F5C0-7595-497E-91BE-CCCD2290CF8E} = {5128206A-242E-4069-AD30-910EDC40B165}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB0245B9-2464-47F8-BE15-D80A7A2FA965}
