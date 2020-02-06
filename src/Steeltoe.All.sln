@@ -239,6 +239,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerApp", "Security\Serve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "Security\ClientApp\ClientApp.csproj", "{831CC6BA-9A9A-4C32-AEB7-0CC3CAF96E6B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Steeltoe.Common.Build", "Common\src\Common.Build\Steeltoe.Common.Build.csproj", "{8F3FEB3D-BAB3-419C-A340-D9FDD882A016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -609,6 +611,10 @@ Global
 		{831CC6BA-9A9A-4C32-AEB7-0CC3CAF96E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831CC6BA-9A9A-4C32-AEB7-0CC3CAF96E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831CC6BA-9A9A-4C32-AEB7-0CC3CAF96E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3FEB3D-BAB3-419C-A340-D9FDD882A016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3FEB3D-BAB3-419C-A340-D9FDD882A016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3FEB3D-BAB3-419C-A340-D9FDD882A016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3FEB3D-BAB3-419C-A340-D9FDD882A016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -703,6 +709,7 @@ Global
 		{0FEEB397-0A2B-4E24-A5AE-B91A56303C98} = {3CBE0336-C3C8-4DC2-AE45-86FC1D1B3C25}
 		{BC84AEA9-31BB-4D19-BC55-1B6EF6AD53FC} = {5128206A-242E-4069-AD30-910EDC40B165}
 		{0134F5C0-7595-497E-91BE-CCCD2290CF8E} = {5128206A-242E-4069-AD30-910EDC40B165}
+		{8F3FEB3D-BAB3-419C-A340-D9FDD882A016} = {59874241-E276-4035-B31D-14924889A1C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB0245B9-2464-47F8-BE15-D80A7A2FA965}
